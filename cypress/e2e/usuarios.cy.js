@@ -149,7 +149,7 @@ describe("Teste de API PUT - Gestão de Usuários", () => {
 
 describe("Teste de API DELETE - Gestão de Usuários", () => {
 
-  it.only('Deve excluir um usuário com sucesso', () => {
+  it('Deve excluir um usuário com sucesso', () => {
     let name = `${faker.person.fullName()}`
     let email = `${faker.internet.email()}`
     let password = `${faker.internet.password({ length: 10 })}`
